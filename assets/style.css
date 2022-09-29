@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    text-align: end;
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header > span{
+    padding: 3px;
+    margin-right: 5px;
+    background-color: #4b4b4b;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1; 
+}
