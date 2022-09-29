@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
+.flex{
     display: flex;
+}
+
+.container{
     flex-direction: column;
     height: 100vh;
     background-color: black;
@@ -15,7 +18,6 @@ header{
     text-align: end;
     margin: 5px;
     color: white;
-    display: flex;
     justify-content: flex-end;
 }
 
@@ -27,7 +29,6 @@ header > span{
 }
 
 main{
-    display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     justify-content: space-around; 
@@ -45,6 +46,49 @@ main{
     width: 100%;
 }
 
-footer{
+nav{
+    justify-content: space-between;
     color: white;
+    padding: 10px;
+    background-color: #4b4b4b;
+}
+
+.f-basis-20{
+    flex-basis: 20%;
+}
+
+.f-basis-40{
+    flex-basis: 40%;
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon > i{
+    line-height: 30px;
+    font-size: 10px;
+}
+
+.icon-margin{
+    margin: 0 10px;
+}
+
+.fa-share-from-square{
+    color: greenyellow;
+}
+
+.fa-record-vinyl{
+    color: red;
+}
+
+.end{
+    text-align: end;
+}
+
+.end > span{
+    background-color: rgb(101, 101, 101);
+    color: red;
+    font-weight: bold;
+    padding: 10px;
 }
