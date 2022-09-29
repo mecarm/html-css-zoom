@@ -29,5 +29,22 @@ header > span{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1; 
+    flex-grow: 1;
+    justify-content: space-around; 
+    padding: 20px;
+    overflow: auto;
+}
+
+.user{
+    max-width: calc(100% / 7);
+    min-height: 50px;
+    padding: 5px;
+}
+
+.user img{
+    width: 100%;
+}
+
+footer{
+    color: white;
 }
