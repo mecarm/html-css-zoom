@@ -44,6 +44,19 @@ main{
 
 .user img{
     width: 100%;
+    border-radius: 10px;
+}
+
+.img-cont{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: white;
+    background-color: rgba(96, 94, 94, 0.607);
 }
 
 nav{
@@ -51,14 +64,6 @@ nav{
     color: white;
     padding: 10px;
     background-color: #4b4b4b;
-}
-
-.f-basis-20{
-    flex-basis: 20%;
-}
-
-.f-basis-40{
-    flex-basis: 40%;
 }
 
 .icon{
@@ -82,13 +87,12 @@ nav{
     color: red;
 }
 
-.end{
-    text-align: end;
-}
-
-.end > span{
+.end > button{
     background-color: rgb(101, 101, 101);
     color: red;
     font-weight: bold;
-    padding: 10px;
+    display: inline-block;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
 }
